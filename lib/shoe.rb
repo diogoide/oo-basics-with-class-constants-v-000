@@ -10,14 +10,14 @@ class Shoe
     @brand = brand
     if BRANDS.include?(brand)
       nil
-    else 
-      BRANDS << brand 
+    else
+      BRANDS << brand
       #  BRANDS.map do |repetition|
       #   if repetition != brand
       #      BRANDS << brand
       #   else
       #     nil
-         end
+        #  end
      end
   end
 
