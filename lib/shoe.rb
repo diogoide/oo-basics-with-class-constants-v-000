@@ -6,7 +6,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
        BRANDS.each do |repetition|
         if repetion == brand
            nil
