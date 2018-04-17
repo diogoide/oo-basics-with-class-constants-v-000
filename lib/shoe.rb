@@ -8,11 +8,15 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-       BRANDS.map do |repetition|
-        if repetition != brand
-           BRANDS << brand
-        else
-          nil
+    if BRANDS.include?(brand)
+      nil
+    else 
+      BRANDS << brand 
+      #  BRANDS.map do |repetition|
+      #   if repetition != brand
+      #      BRANDS << brand
+      #   else
+      #     nil
          end
      end
   end
