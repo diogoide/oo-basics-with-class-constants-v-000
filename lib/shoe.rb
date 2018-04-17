@@ -7,6 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
        BRANDS.map do |repetition|
+         binding.pry
         if repetition != brand
            BRANDS << brand
         else
