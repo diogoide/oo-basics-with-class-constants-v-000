@@ -1,4 +1,4 @@
-require 'pry'
+require 'Pry'
 
 class Shoe
   attr_accessor :color, :size, :material, :condition
