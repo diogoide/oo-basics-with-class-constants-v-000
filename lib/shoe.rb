@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
        BRANDS.map do |repetition|
-        if repetion != brand
+        if repetition != brand
            BRANDS << brand
         else
           nil
